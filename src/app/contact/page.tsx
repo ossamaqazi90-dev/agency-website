@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import { Mail, Phone, MapPin, Calendar } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
 import { Badge } from '@/components/ui/Badge'
@@ -58,14 +59,17 @@ export default function ContactPage() {
                 <p className="text-white/55 text-sm leading-relaxed mb-4">
                   30 minutes. No sales pitch. You&apos;ll leave with a clear picture of what to build and why — whether you work with us or not.
                 </p>
-                <a
-                  href="#"
-                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold text-white bg-white/10 border border-white/20 hover:bg-white/20 transition-all duration-200"
-                  aria-label="Book a call via Calendly (placeholder)"
-                >
-                  <Calendar className="w-4 h-4" />
-                  Open Calendly — PLACEHOLDER
-                </a>
+                <div className="rounded-xl overflow-hidden bg-white">
+                  <iframe
+                    src="https://link.legacylabs.club/widget/booking/KurRPkzjUEsQ7R3g1RmR"
+                    style={{ width: '100%', border: 'none', overflow: 'hidden', display: 'block' }}
+                    scrolling="no"
+                    id="KurRPkzjUEsQ7R3g1RmR_1783463295466"
+                    className="min-h-[700px]"
+                    title="Book a free strategy call"
+                  />
+                </div>
+                <Script src="https://link.legacylabs.club/js/form_embed.js" strategy="afterInteractive" />
               </div>
 
               {/* Contact details */}

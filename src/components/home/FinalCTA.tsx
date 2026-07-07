@@ -78,7 +78,7 @@ export function FinalCTA() {
               </Link>
 
               <Link
-                href="/services"
+                href="/#services"
                 className="inline-flex items-center gap-2 text-white/60 hover:text-white text-sm font-medium transition-colors duration-200"
               >
                 Explore our services
