@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import { Hero }          from '@/components/home/Hero'
-import { TrustedBy }     from '@/components/home/TrustedBy'
 import { ServicesGrid }  from '@/components/home/ServicesGrid'
 import { WhyScilla }     from '@/components/home/WhyScilla'
 import { Process }       from '@/components/home/Process'
@@ -20,7 +19,6 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <TrustedBy />
       <ServicesGrid />
       <WhyScilla />
       <Process />
