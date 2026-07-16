@@ -179,18 +179,6 @@ export function Hero() {
           ))}
         </div>
       )}
-
-      {/* ── Scroll indicator ── */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.2, duration: 0.6 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
-        aria-hidden
-      >
-        <span className="text-xs text-white/25 font-body tracking-widest uppercase">Scroll</span>
-        <div className="w-px h-10 bg-gradient-to-b from-white/20 to-transparent" />
-      </motion.div>
     </section>
   )
 }
