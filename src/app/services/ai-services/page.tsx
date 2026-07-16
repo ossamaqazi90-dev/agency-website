@@ -37,7 +37,7 @@ const aiServicesData = {
   ],
   outcomes: [
     { metric: '85%', description: 'Average reduction in time spent on automated tasks' },
-    { metric: '40K+', description: 'Hours saved for our clients annually' },
+    { metric: '20K+', description: 'Hours saved for our clients annually' },
     { metric: '10×', description: 'Output capacity without adding headcount' },
     { metric: '< 30d', description: 'Average time to measurable ROI' },
   ],

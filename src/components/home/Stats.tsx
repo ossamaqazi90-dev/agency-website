@@ -5,9 +5,9 @@ import { motion, useInView } from 'framer-motion'
 import { Container } from '@/components/ui/Container'
 
 const stats = [
-  { value: 150,  suffix: '+', label: 'Projects Delivered',   description: 'Across branding, AI, web, and automation' },
-  { value: 40,   suffix: 'K+', label: 'Hours Automated',     description: 'Given back to our clients every year' },
-  { value: 98,   suffix: '%', label: 'Client Satisfaction',  description: 'Measured after every engagement' },
+  { value: 35,   suffix: '+', label: 'Projects Delivered',   description: 'Across branding, AI, web, and automation' },
+  { value: 20,   suffix: 'K+', label: 'Hours Automated',     description: 'Given back to our clients every year' },
+  { value: 95,   suffix: '%', label: 'Client Satisfaction',  description: 'Measured after every engagement' },
   { value: 24,   suffix: '/7', label: 'AI Systems Running',  description: 'So your business never sleeps' },
 ]
 

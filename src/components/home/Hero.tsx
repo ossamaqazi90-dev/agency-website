@@ -139,9 +139,9 @@ export function Hero() {
           className="grid grid-cols-3 gap-6 max-w-lg mx-auto"
         >
           {[
-            { value: '150+', label: 'Projects Delivered' },
-            { value: '40K+', label: 'Hours Automated' },
-            { value: '98%',  label: 'Client Satisfaction' },
+            { value: '35+', label: 'Projects Delivered' },
+            { value: '20K+', label: 'Hours Automated' },
+            { value: '95%',  label: 'Client Satisfaction' },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="font-display font-bold text-2xl md:text-3xl text-white mb-0.5">
